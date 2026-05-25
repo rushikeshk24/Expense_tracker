@@ -19,14 +19,14 @@ const Home = () => {
  return (
   <div className="page-wrapper">
     <div className="container">
-      <h1>Expense Tracker</h1>
+      <h1>Expense_Tracker</h1>
       <Summary transactions={transactions} />
       <TransactionForm onAdd={fetchTransactions} />
       <TransactionList transactions={transactions} onDelete={fetchTransactions} />
     </div>
 
     <footer className="footer">
-      <p>&copy; Copyright 2025</p>
+      <p>&copy; Copyright 2024</p>
       <p>Developed By Rushi Karlekar</p>
       <p>CONTACT: 7350515037</p>
     </footer>
